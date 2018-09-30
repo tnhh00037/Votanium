@@ -4,8 +4,9 @@
         <div class=' introduction center'>
             <h1>BLOCKCHAIN VOTING SYSTEM</h1>  
             <br>
-            <p>Creating a whole new way for the Election</p>
-            <p>Transparent result</p>
+            <h3>Creating a whole new way for Election</h3>
+            <h3>The result is transparent</h3>
+            <h3>Get reward when having voted for the final President</h3>
         </div>
         
         <br>
@@ -46,8 +47,8 @@
                         <span class="name">Trump</span>                   
                     </div>
                     <div class="right-text">
-                        <span class="name">232</span>
-                        <span class="vote">Clinton</span>
+                        <span class="name">Clinton</span>
+                        <span class="vote">232</span>                        
                     </div>
                 </div>
                 <div class="progress-bar" style='background:transparent'>
@@ -69,15 +70,12 @@
                             <p> <b>xx Votes </b> ( xx %)   </p>
                         </div>
                     </div>
-                    <div class="mt-2">
-                        <img src="@/assets/images/election.png" alt="">
-                    </div>
                 </div>
+                <div class="mt-2 container" style='background:white;'>
+                        <img src="@/assets/images/election.png" alt="" style='max-width:100%;'>
+                    </div>
             </div>
         </div>
-        <br>
-        <br>
-        <br>
     </div>
 </template>
 <style>
@@ -94,7 +92,7 @@
 }
 .introduction {
     widows: 100%;
-    height:360px;
+    height:400px;
     background:#17529E url(https://wallpapercave.com/wp/wp2337006.jpg) no-repeat center fixed;
     padding-top:100px;
     background-size:cover;
@@ -102,6 +100,9 @@
 }
 .introduction h1{
     color:yellow;
+}
+.introduction h3{
+    color:white;
 }
 .candidate{
     margin-top:20px;
@@ -153,7 +154,7 @@
 .candidate-icon img{
     height:70px;
     border-radius:50%;
-    border:3px solid rgb(244, 245, 250);
+    border:3px solid white;
     z-index: 999;
 }
 .small-bar{
